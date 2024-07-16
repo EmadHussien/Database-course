@@ -22,3 +22,5 @@ SELECT I.invoice_id,
 FROM invoices I
 JOIN clients C USING (client_id)
 WHERE I.payment_date IS NOT NULL;
+
+
