@@ -43,3 +43,4 @@ SELECT customer_id,
 FROM customers   
 WHERE points > 3000
 ORDER BY first_name;
+
