@@ -19,3 +19,4 @@ SELECT P.payment_id,
 FROM payments P
 JOIN clients C ON P.client_id = C.client_id
 JOIN payment_methods PM ON P.payment_method = PM.payment_method_id;
+
